@@ -1,0 +1,25 @@
+{
+  "name": "returnstoken",
+  "version": "1.0.0",
+  "description": "Proof of concept for ReturnsToken",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test",
+    "test:ganache": "yarn ganache-cli -m \"$ReturnsTOKEN_DEVELOPMENT_MNEMONIC\" -e 100"
+  },
+  "author": "Manny Fernandez",
+  "license": "",
+  "devDependencies": {
+    "ganache-cli": "^6.1.0",
+    "truffle": "^4.1.5",
+    "truffle-hdwallet-provider": "^0.0.3",
+    "web3": "^1.0.0-beta.33"
+  },
+  "dependencies": {
+    "bignumber.js": "^6.0.0",
+    "zeppelin-solidity": "^1.4.0"
+  }
+}
